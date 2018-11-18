@@ -14,7 +14,7 @@ function nowServing(katzDeliLine){
     katzDeliLine = katzDeliLine.shift();
     return 'Currently serving ' + first +'.';
   }
-}
+// }
 
 function currentLine(katzDeliLine){
   var string = 'The line is currently: ';
