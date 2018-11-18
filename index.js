@@ -25,9 +25,9 @@ function currentLine(katzDeliLine){
       var person = katzDeliLine[i];
       var position = i + 1;
       if ( i === 0){
-        string += position + '. ' + person
+        string += position + '. ' + person;
       } else {
-        string += ', ' + position + '. ' + person
+        string += ', ' + position + '. ' + person;
       }
     }
   }
